@@ -1,11 +1,10 @@
-// prisma/schema.prisma
 generator client {
   provider = "prisma-client-js"
 }
 
 datasource db {
   provider = "mysql"
-  url      = env("DATABASE_URL")
+  url      = "mysql://root:pBoAuxBoKGBFtikPvsIlezSWlQowpqvc@crossover.proxy.rlwy.net:34619/railway"
 }
 
 model Division {
